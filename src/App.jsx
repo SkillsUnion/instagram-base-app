@@ -1,4 +1,3 @@
-import logo from "/logo.png";
 import "./App.css";
 import { useState, useEffect } from "react";
 import AuthForm from "./Components/AuthForm";
@@ -60,9 +59,6 @@ function App() {
 
   return (
     <>
-      <div className="bg-muted">
-        <img src={logo} className="logo" alt="Rocket logo" />
-      </div>
       <div className="card">
         {shouldRenderAuthForm ? authForm : composerAndNewsFeed}
       </div>
