@@ -38,9 +38,6 @@ function App() {
 
   return (
     <>
-      <div>
-        <img src={logo} className="logo" alt="Rocket logo" />
-      </div>
       <h1>Instagram Bootcamp</h1>
       <div className="card">
         {/* TODO: Add input field and add text input as messages in Firebase */}
