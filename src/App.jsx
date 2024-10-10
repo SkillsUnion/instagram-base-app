@@ -70,9 +70,6 @@ function App() {
 
   return (
     <>
-      <div className="bg-muted">
-        <img src={logo} className="logo" alt="Rocket logo" />
-      </div>
       <div className="card">
         <RouterProvider router={router} />
       </div>
