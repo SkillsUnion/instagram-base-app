@@ -72,9 +72,6 @@ function App() {
 
   return (
     <>
-      <div className="bg-muted">
-        <img src={logo} className="logo" alt="Rocket logo" />
-      </div>
       <div className="card">
         <h1 className="text-white">Instagram Bootcamp</h1>
         <form onSubmit={writeData}>
