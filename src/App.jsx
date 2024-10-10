@@ -1,4 +1,3 @@
-import logo from "/logo.png";
 import "./App.css";
 import { onChildAdded, push, ref as databaseRef, set } from "firebase/database";
 import {
